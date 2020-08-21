@@ -52,29 +52,26 @@ for i in range(n):
                     ch2[i][j] = True
 
 
-for k in li:
-    print(k)
-print('li')
-
-for k in ch:
-    print(k)
-print('ch')
-
-for k in ch2:
-    print(k)
-print('ch2')
-
-for x in range(n-8):
-    for y in range(m-8):
-        che = 0
+che = 65
+for x in range(n-7):
+    for y in range(m-7):
+        che2 = 0
         for k in [row[y:y+8] for row in ch[x:x+8]]:
-            che += k.count(True)
-            print(che)
+            che2 += k.count(True)
+
+        if che > che2:
+            che = che2
+
+for x in range(n-7):
+    for y in range(m-7):
+        che2 = 0
+        for k in [row[y:y+8] for row in ch2[x:x+8]]:
+            che2 += k.count(True)
+
+        if che > che2:
+            che = che2
 
 
-#print('aa')
-#for x in range(n-8):
-    #for y in range(m-8):
-        #for i in [row[y:y+8] for row in ch2[x:x+8]]:
+print(che)
+            
 
-    
