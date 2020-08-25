@@ -6,4 +6,9 @@ input = sys.stdin.readline
 N = int(input())
 
 def star(x):
-    x = zz
+    a = 1
+    b = 2
+    x = a + b
+    return x
+
+print(star(10))
