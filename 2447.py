@@ -3,10 +3,12 @@ def put():
     return list(map(int, input().split()))
 input = sys.stdin.readline
 
-N = int(input())
+n = 27
 
-def star(x):
-    print("제발 되라")
-    a = 1
-    b = 2
-asdasdasdasdsadasd
+
+def mat(n, li):
+
+    if len(li) == n:
+        return li
+
+
