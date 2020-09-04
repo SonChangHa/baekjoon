@@ -5,7 +5,7 @@ input = sys.stdin.readline
 
 n = 27
 
-print("EpRjffnr")
+print("dadadadadadr")
 
 
 def mat(n, li):
