@@ -5,7 +5,7 @@ input = sys.stdin.readline
 
 n = 27
 
-print("dadadadadadr")
+print("이건언제쯤 하냐")
 
 
 def mat(n, li):
