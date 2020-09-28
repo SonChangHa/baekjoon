@@ -34,3 +34,5 @@ for _ in range(t):
     n = int(input())
     fi(n)
     print(c0, c1)
+    
+    삭제 
