@@ -35,4 +35,4 @@ for _ in range(t):
     fi(n)
     print(c0, c1)
     
-    삭제 
+    삭제아니고 수정 ㄱㄱ
