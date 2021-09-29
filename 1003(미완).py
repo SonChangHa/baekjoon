@@ -35,4 +35,4 @@ for _ in range(t):
     fi(n)
     print(c0, c1)
 
-# 수정 ㄱㄱ
+# 수정 ㄱㄱrrrr
