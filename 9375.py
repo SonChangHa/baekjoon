@@ -1,7 +1,3 @@
-def com(n, r):
-    return fac(n) / fac(r) / fac(n - r)
-
-
 for _ in range(int(input())):
     dic = {}
     for _ in range(int(input())):
