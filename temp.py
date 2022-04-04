@@ -1,6 +1,11 @@
-a = 1
-b = 2
+n, k = list(map(int, input().split()))
 
-s = a + b
+t = list(map(int, input().split()))
 
-print(s)
+max = 0
+for i in range(n-k + 1):
+    temp = t[i:i+k]
+    if max < sum(temp):
+        max = sum(temp)
+
+print(max)
