@@ -1,9 +1,13 @@
+import sys
+
 n = int(input())
 
 if n == 1:
     print(1)
+    sys.exit()
 elif n == 2:
     print(2)
+    sys.exit()
 
 dp = [0] * n # [1, 2, 3, 5]
 dp[0] = 1 # 손으로 계산해서 2x1일때 경우 계산
