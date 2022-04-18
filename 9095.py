@@ -6,6 +6,16 @@ for _ in range(t):
 
     n = int(input())
 
+    if n == 1:
+        print(1)
+        continue
+    elif n == 2:
+        print(2)
+        continue
+    elif n == 3:
+        print(4)
+        continue
+
     dp = [0] * n
     dp[0] = 1
     dp[1] = 2
